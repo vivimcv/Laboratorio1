@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "616583435447",
+    "project_id": "parametros-e74bb",
+    "storage_bucket": "parametros-e74bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616583435447:android:a79741893a26761fce6932",
+        "android_client_info": {
+          "package_name": "com.example.parametros"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616583435447-m5u8o04d9d2ridcci8jscu4jovouglil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN2RYzN6xRSprHxCF9-B7_aD8QvhtvIMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616583435447-m5u8o04d9d2ridcci8jscu4jovouglil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

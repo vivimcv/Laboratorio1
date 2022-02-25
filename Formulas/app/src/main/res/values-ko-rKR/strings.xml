@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Formulas</string>
+    <string name="Fórmulas">방식</string>
+    <string name="hint">숫자를 입력하세요</string>
+    <string name="calcular">"계산하다 "</string>
+    <string name="imagenformula">공식 이미지</string>
+    <string name="imagenElegida">선택한 공식의 이미지</string>
+    <string name="formulas4">힘</string>
+    <string name="formulas1">전압</string>
+    <string name="formulas2">강함</string>
+    <string name="formulas3">저항</string>
+    <string name="mensaje1">제로 곱셈 오류</string>
+    <string name="mensaje2">0으로 나누기 오류</string>
+</resources>

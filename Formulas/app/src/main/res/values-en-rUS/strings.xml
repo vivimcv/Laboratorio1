@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Formulas</string>
+    <string name="hint">Enter a number</string>
+    <string name="calcular">Calculate</string>
+    <string-array name="formulas">
+        <item>Voltaje</item>
+        <item>Corriente</item>
+        <item>Resistencia</item>
+        <item>Potencia</item>
+    </string-array>
+    <string name="Fórmulas">Formulas</string>
+    <string name="imagenformula">formula image</string>
+    <string name="imagenElegida">image of chosen formula</string>
+    <string name="formulas4">power</string>
+    <string name="formulas1">voltage</string>
+    <string name="formulas2">intensity</string>
+    <string name="formulas3">resistance</string>
+    <string name="mensaje1">Zero multiplication error</string>
+    <string name="mensaje2">division by zero error</string>
+</resources>
