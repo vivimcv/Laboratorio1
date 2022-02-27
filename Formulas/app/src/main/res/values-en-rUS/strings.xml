@@ -18,4 +18,5 @@
     <string name="formulas3">resistance</string>
     <string name="mensaje1">Zero multiplication error</string>
     <string name="mensaje2">division by zero error</string>
+    <string name="Elegir">Select a formula:</string>
 </resources>

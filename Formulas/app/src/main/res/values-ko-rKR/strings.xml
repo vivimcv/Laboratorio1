@@ -12,4 +12,5 @@
     <string name="formulas3">저항</string>
     <string name="mensaje1">제로 곱셈 오류</string>
     <string name="mensaje2">0으로 나누기 오류</string>
+    <string name="Elegir">수식 선택:</string>
 </resources>
