@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Fórmulas</string>
+    <string name="hint">Ingresa un número</string>
+    <string name="calcular">Calcular</string>
+    <string name="Fórmulas">Fórmulas</string>
+    <string name="imagenformula">imagen de formula</string>
+    <string name="imagenElegida">Imagen de formula elegida</string>
+    <string name="formulas1">Voltaje</string>
+    <string name="formulas2">Intensidad</string>
+    <string name="formulas3">Resistencia</string>
+    <string name="formulas4">Potencia</string>
+    <string name="mensaje1">Error multiplicación por cero</string>
+    <string name="mensaje2">Error division entre cero</string>
+    <string name="Elegir">Selecciona una fórmula:</string>
+    <string-array name="formulas">
+        <item>Voltaje</item>
+        <item>Intensidad</item>
+        <item>Resistencia</item>
+        <item>Potencia</item>
+    </string-array>
+</resources>

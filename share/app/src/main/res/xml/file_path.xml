@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+<!--Representa archivos en el subdirectorio cache del almacenamiento interno de la app-->
+    <cache-path
+        name="share_images"
+        path="images"/>
+    <!--Representa archivos en la raiz del almacenamiento-->
+    <external-path
+        name="saved_images"
+        path="MyImagesToShare"/>
+</paths>
