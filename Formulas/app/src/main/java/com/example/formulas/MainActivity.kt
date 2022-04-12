@@ -35,7 +35,7 @@ spinner.setAdapter(adapter);*/
             aaFormulas.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         //simple_spinner_dropdown_item
            //definiendo formulas
-            aaFormulas.addAll(listOf(getString(R.string.formulas1),getString(R.string.formulas2),getString(R.string.formulas3),getString(R.string.formulas4)))
+           // aaFormulas.addAll(listOf(getString(R.string.formulas1),getString(R.string.formulas2),getString(R.string.formulas3),getString(R.string.formulas4)))
 
 
             mBinding.spinnerFormulas.onItemSelectedListener = this
@@ -118,7 +118,7 @@ spinner.setAdapter(adapter);*/
                             intent.putExtras(resultados)
                             operacion.putString("operacion","voltaje")
                             intent.putExtras(operacion)
-                           // Toast.makeText(this@MainActivity, operacion.toString(), Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this@MainActivity, operacion.toString(), Toast.LENGTH_SHORT).show()
 
                             startActivity(intent)
                             Animatoo.animateInAndOut(this@MainActivity)}
