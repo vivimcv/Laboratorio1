@@ -26,7 +26,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/beuaty" />
+        android:src="@drawable/movie" />
 
     <Button
         android:id="@+id/button"
@@ -72,15 +72,17 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/myCardView"
-        android:layout_width="90dp"
+        android:layout_width="85dp"
         android:layout_height="67dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="5dp"
         app:cardCornerRadius="360dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline3"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintVertical_bias="0.0">
 
         <ImageView
             android:id="@+id/roundedimage"
@@ -94,36 +96,39 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/myCardView2"
-        android:layout_width="90dp"
+        android:layout_width="85dp"
         android:layout_height="67dp"
-        app:layout_constraintEnd_toStartOf="@+id/guideline5"
-        app:layout_constraintStart_toStartOf="@+id/guideline6"
-        app:layout_constraintTop_toTopOf="@+id/guideline3"
         app:cardCornerRadius="360dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintStart_toStartOf="@id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:layout_constraintVertical_bias="0.0">
         <ImageView
             android:id="@+id/roundedimage2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-
             android:src="@drawable/group2"  />
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/myCardView3"
-        android:layout_width="90dp"
+        android:layout_width="85dp"
         android:layout_height="67dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:cardCornerRadius="360dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toTopOf="@+id/guideline3"
-        app:cardCornerRadius="360dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintVertical_bias="0.0">
+
         <ImageView
             android:id="@+id/roundedimage3"
             android:layout_width="match_parent"
@@ -137,27 +142,27 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/myCardView4"
-        android:layout_width="90dp"
+        android:layout_width="85dp"
         android:layout_height="67dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_marginEnd="10dp"
+        android:layout_marginEnd="5dp"
         app:cardCornerRadius="360dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
         app:layout_constraintTop_toTopOf="@+id/guideline3"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintVertical_bias="0.0">
 
         <ImageView
             android:id="@+id/roundedimage4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            tools:ignore="DuplicateIds"
-            android:src="@drawable/group4" />
+            android:src="@drawable/group4"
+            tools:ignore="DuplicateIds" />
 
     </androidx.cardview.widget.CardView>
-
-
 
 
     <TextView
@@ -169,7 +174,8 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/myCardView" />
+        app:layout_constraintTop_toBottomOf="@+id/guideline3"
+        app:layout_constraintVertical_bias="0.74" />
 
     <TextView
         android:id="@+id/textView4"
@@ -180,8 +186,8 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
-        app:layout_constraintTop_toBottomOf="@+id/myCardView2"
-        app:layout_constraintVertical_bias="0.49" />
+        app:layout_constraintTop_toBottomOf="@+id/guideline3"
+        app:layout_constraintVertical_bias="0.74" />
 
     <TextView
         android:id="@+id/textView5"
@@ -192,7 +198,8 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
-        app:layout_constraintTop_toBottomOf="@+id/myCardView3" />
+        app:layout_constraintTop_toBottomOf="@+id/guideline3"
+        app:layout_constraintVertical_bias="0.74" />
 
     <TextView
         android:id="@+id/textView6"
@@ -203,7 +210,8 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline7"
-        app:layout_constraintTop_toBottomOf="@+id/myCardView4"
+        app:layout_constraintTop_toBottomOf="@+id/guideline3"
+        app:layout_constraintVertical_bias="0.74"
         />
 
     <TextView
@@ -223,8 +231,9 @@
         android:layout_width="180dp"
         android:layout_height="70dp"
         android:layout_marginStart="90dp"
+        android:textColor="@color/black"
         android:layout_marginTop="-30dp"
-        android:fontFamily="sans-serif-black"
+        android:fontFamily="@font/amaranth_bold"
         android:text="Beaty and the beast"
         android:textSize="28dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
